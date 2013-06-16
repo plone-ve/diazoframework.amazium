@@ -9,16 +9,16 @@ The resources of this framework can be reached through
 
 **resources**
 
-    images
-    includes
-    rules
-        body
-            columns.xml
-        head
-            base.xml
-            js.xml
-    index.html
-    preview.png
+    _ images
+    _ includes
+    _ rules
+      _ body
+        _ columns.xml
+      _ head
+        _ base.xml
+        _ js.xml
+    _ index.html
+    _ preview.png
 
 This framework is used by 
 [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium) 
