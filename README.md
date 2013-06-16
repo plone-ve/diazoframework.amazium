@@ -24,3 +24,4 @@ This framework is used by
 [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium) 
 which contains two themes that can both be used as starters for 
 your own Amazium based theme.
+
