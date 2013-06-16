@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+         xmlns:css="http://namespaces.plone.org/diazo/css"
+         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+         xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <!-- Base tag -->
+  <before theme="/html/head/title" content="/html/head/base"/>
+  <before theme="/html/head/title">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+  </before>
+
+  <!-- Framework -->
+  <!-- CSS -->
+  <after theme="/html/head/title">
+      <link href="/++framework++amazium/includes/base.css" rel="stylesheet"/>
+      <link href="/++framework++amazium/includes/amazium.css" rel="stylesheet"/>
+  </after>
+
+</rules>

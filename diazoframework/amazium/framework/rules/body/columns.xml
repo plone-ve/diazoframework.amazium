@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+         xmlns:css="http://namespaces.plone.org/diazo/css"
+         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+         xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <!-- Columns -->
+  <replace content="//div[contains(@class, 'cell ')]">
+      <div>
+          <xsl:choose>
+              <xsl:when test="contains(concat(' ', normalize-space(@class), ' '), ' width-1:4 ')">
+                  <xsl:attribute name="class">grid_3</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="contains(concat(' ', normalize-space(@class), ' '), ' width-1:2 ')">
+                  <xsl:attribute name="class">grid_6</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="contains(concat(' ', normalize-space(@class), ' '), ' width-3:4 ')">
+                  <xsl:attribute name="class">grid_9</xsl:attribute>
+              </xsl:when>
+              <xsl:otherwise>
+                  <xsl:attribute name="class">grid_12</xsl:attribute>
+              </xsl:otherwise>
+          </xsl:choose>
+          <xsl:apply-templates select="./*"/>
+      </div>
+  </replace>
+
+
+</rules>
