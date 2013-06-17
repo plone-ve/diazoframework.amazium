@@ -22,7 +22,8 @@ The resources of this framework can be reached through
 
 This framework is used by 
  [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium) 
-which contains two themes that can both be used as starters for 
+which contains themes that can both be used as starters for 
 your own Amazium based theme.
 
-For more frameworks see: [diazoframework.plone](https://github.com/TH-code/diazoframework.plone#current-frameworks)
+For more frameworks see: 
+[diazoframework.plone](https://github.com/TH-code/diazoframework.plone#current-frameworks)
