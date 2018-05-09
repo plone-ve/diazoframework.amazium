@@ -4,4 +4,6 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Updated the URLs for JS resources files [macagua]
+
 - Initial release
