@@ -8,7 +8,7 @@
   <before theme="/html/head/title" content="/html/head/base"/>
   <before theme="/html/head/title">
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   </before>
